@@ -6,7 +6,6 @@
 #include <GL/gl.h>
 #include <GL/glut.h>
 #endif
-#include <stack>
 
 using namespace std;
 
