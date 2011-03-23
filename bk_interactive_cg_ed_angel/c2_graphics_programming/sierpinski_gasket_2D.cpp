@@ -48,7 +48,6 @@ void sierpinski_gasket(vertex v1, vertex v2, vertex v3, int k) {
 void display() {
   glClear(GL_COLOR_BUFFER_BIT);
 
-  stack<vertex> st;
   vertex v1(0.0, 0.0), v2(50.0, 0.0), v3(25.0, 50.0);
 
   glBegin(GL_TRIANGLES);
